@@ -1,0 +1,245 @@
+    /*Global (reset, corpo da pagina, estilo padrão para parágrafos, listas, etc.)
+    Cabeçalho da página
+    Estrutura da página
+    Rodapé
+    Estilos de títulos
+    Estilos de texto
+    Navegação
+    Formulários
+    Extras ou Miscelâneas
+
+*/
+
+/*===========Global==================================================*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend
+{
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0; 
+    outline: 0;
+}
+
+:focus
+{
+    outline: 0;
+}
+
+body
+{
+    line-height: 1;
+    
+    background: white;
+    color:#000000;
+    font-size: 100%;
+}
+
+ol,
+ul
+{
+    list-style: none;
+}
+
+table
+{
+    border-spacing: 0; 
+    border-collapse: separate;
+}
+
+caption,
+th,
+td
+{
+    font-weight: normal;
+
+    text-align: left;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
+{
+    content: '';
+}
+
+blockquote,
+q
+{
+    quotes: '' '';
+}
+
+
+/*======== Cabeçalho ==========================================================*/
+header
+{
+    position: relative;
+
+    width: 1200px;
+    height: 141px;
+}
+
+.logo
+{
+    position: absolute;
+    top: 34px; 
+    left: 76px;
+}
+.menu li
+{
+    display: inline;
+}
+.menu a
+{
+    color: #676161;
+    font-family: Arial;
+    font-size: 1.37em;
+    font-weight: 600;
+    margin-right: 72px; 
+    margin-top: 4%; 
+    float: right; 
+    text-decoration: none;
+}
+
+.menu ul
+{
+   /* position: absolute;
+    top: 72px;
+    right: 79px;*/
+}
+
+
+/*========== Estrutura da Página =============================================*/
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner
+{
+    position: relative;
+    background-color:#b0b1b0; 
+    width: 963px;
+    height: 418px;
+}
+/*Estilos de títulos=====================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: Arial;
+    font-size: 1.87em;
+
+    color: #000000;
+}
+.content{
+    border:2px solid black;
+    height: 617px;
+    width: 1200px;
+}
+.titulos{
+    height: 82px;
+    width: 963px;
+    position: relative;
+}
+#titulo1{
+    margin-left: 71px;
+    margin-top: 25px;
+    height: 44px;
+    position: absolute;
+    width: 134px;
+}
+#titulo2{
+    margin-left: 443px;
+    margin-top: 25px;
+    height: 44px;
+    position: absolute;
+    width: 134px;
+}
+#titulo3{
+    margin-left: 781px;
+    margin-top: 25px;
+    height: 44px;
+    position: absolute;
+    width: 134px;
+}
+.item{
+    background-color:#b0b1b0;
+    float:right;   
+    height: 375px;
+    width: 276px;
+    margin-right: 89px;
+}
+footer{
+    height: 75px;
+    width: 1200px;
+    border: 2px black solid;
+}
