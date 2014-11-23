@@ -80,7 +80,7 @@ legend
 
     vertical-align: baseline;
 
-    border: 0; 
+    border: 0;
     outline: 0;
 }
 
@@ -91,11 +91,11 @@ legend
 
 body
 {
-    line-height: 1;
-    
-    background: white;
-    color:#000000;
     font-size: 100%;
+    line-height: 1;
+
+    color: #000;
+    background: white;
 }
 
 ol,
@@ -106,7 +106,7 @@ ul
 
 table
 {
-    border-spacing: 0; 
+    border-spacing: 0;
     border-collapse: separate;
 }
 
@@ -146,7 +146,7 @@ header
 .logo
 {
     position: absolute;
-    top: 34px; 
+    top: 34px;
     left: 76px;
 }
 .menu li
@@ -155,19 +155,23 @@ header
 }
 .menu a
 {
-    color: #676161;
     font-family: Arial;
     font-size: 1.37em;
     font-weight: 600;
-    margin-right: 72px; 
-    margin-top: 4%; 
-    float: right; 
+
+    float: right;
+    
+    margin-top: 4%;
+    margin-right: 122px;
+
     text-decoration: none;
+
+    color: #676161;
 }
 
 .menu ul
 {
-   /* position: absolute;
+    /* position: absolute;
     top: 72px;
     right: 79px;*/
 }
@@ -183,9 +187,11 @@ header
 .banner
 {
     position: relative;
-    background-color:#b0b1b0; 
-    width: 963px;
+
+    width: 1006px;
     height: 418px;
+
+    background-color: #b0b1b0;
 }
 /*Estilos de títulos=====================*/
 h1,
@@ -198,48 +204,69 @@ h6
     font-family: Arial;
     font-size: 1.87em;
 
-    color: #000000;
+    color: #000;
 }
-.content{
-    border:2px solid black;
+.content
+{
+    width: 1200px;
     height: 617px;
-    width: 1200px;
+    position:relative;
 }
-.titulos{
-    height: 82px;
-    width: 963px;
+.titulos
+{
     position: relative;
+    width: 963px;
+    height: 82px;
+
 }
-#titulo1{
-    margin-left: 71px;
-    margin-top: 25px;
-    height: 44px;
+#titulo1
+{
     position: absolute;
+    font-weight: 600;
     width: 134px;
-}
-#titulo2{
-    margin-left: 443px;
-    margin-top: 25px;
     height: 44px;
-    position: absolute;
-    width: 134px;
-}
-#titulo3{
-    margin-left: 781px;
     margin-top: 25px;
-    height: 44px;
-    position: absolute;
-    width: 134px;
+    margin-left: 78px;
 }
-.item{
-    background-color:#b0b1b0;
-    float:right;   
+#titulo2
+{
+    position: absolute;
+    font-weight: 600;
+    width: 134px;
+    height: 44px;
+    margin-top: 25px;
+    margin-left: 449px;
+}
+#titulo3
+{
+    position: absolute;
+    font-weight: 600;
+    width: 134px;
+    height: 44px;
+    margin-top: 25px;
+    margin-left: 821px;
+}
+.item
+{
+    float: right;
+
+    width: 279px;
     height: 375px;
-    width: 276px;
     margin-right: 89px;
+
+    background-color: #b0b1b0;
 }
-footer{
-    height: 75px;
-    width: 1200px;
-    border: 2px black solid;
+
+article
+{   
+    font-family: verdana;
+    font-size: 1.18em;
+    color: #676161;
+    margin-top: 410px;
+    left: 111px;
+
+}
+footer img
+{
+     width: cover;
 }
