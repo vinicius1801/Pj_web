@@ -160,7 +160,7 @@ header
     font-weight: 600;
 
     float: right;
-    
+
     margin-top: 4%;
     margin-right: 122px;
 
@@ -208,21 +208,24 @@ h6
 }
 .content
 {
+    position: relative;
+
     width: 1200px;
     height: 617px;
-    position:relative;
 }
 .titulos
 {
     position: relative;
+
     width: 963px;
     height: 82px;
-
 }
 #titulo1
 {
-    position: absolute;
     font-weight: 600;
+
+    position: absolute;
+
     width: 134px;
     height: 44px;
     margin-top: 25px;
@@ -230,8 +233,10 @@ h6
 }
 #titulo2
 {
-    position: absolute;
     font-weight: 600;
+
+    position: absolute;
+
     width: 134px;
     height: 44px;
     margin-top: 25px;
@@ -239,8 +244,10 @@ h6
 }
 #titulo3
 {
-    position: absolute;
     font-weight: 600;
+
+    position: absolute;
+
     width: 134px;
     height: 44px;
     margin-top: 25px;
@@ -258,15 +265,17 @@ h6
 }
 
 article
-{   
+{
     font-family: verdana;
     font-size: 1.18em;
-    color: #676161;
-    margin-top: 410px;
+
     left: 111px;
 
+    margin-top: 410px;
+
+    color: #676161;
 }
 footer img
 {
-     width: cover;
+    width: cover;
 }
