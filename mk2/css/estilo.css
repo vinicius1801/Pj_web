@@ -1,0 +1,137 @@
+ /*Global (reset, corpo da pagina, estilo padrão para parágrafos, listas, etc.)
+    Cabeçalho da página
+    Estrutura da página
+    Rodapé
+    Estilos de títulos
+    Estilos de texto
+    Navegação
+    Formulários
+    Extras ou Miscelâneas
+
+*/
+
+/*===========Global==================================================*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend
+{
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+    outline: 0;
+}
+
+:focus
+{
+    outline: 0;
+}
+
+body
+{
+    font-size: 100%;
+    line-height: 1;
+
+    color: #000;
+    background: white;
+}
+
+ol,
+ul
+{
+    list-style: none;
+}
+
+table
+{
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+caption,
+th,
+td
+{
+    font-weight: normal;
+
+    text-align: left;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
+{
+    content: '';
+}
+
+blockquote,
+q
+{
+    quotes: '' '';
+}
+
+
+/*======== Cabeçalho ==========================================================*/
