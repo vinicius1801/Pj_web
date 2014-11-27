@@ -135,3 +135,131 @@ q
 
 
 /*======== Cabeçalho ==========================================================*/
+header
+{
+    position: relative;
+}
+.container
+{
+    width: 960px;
+    margin: 0 auto;
+}
+#logo-header
+{
+    position: absolute;
+    top: 10px;
+    left: 36px;
+}
+.menu
+{
+    width: 960px;
+    height: 67px;
+    margin-top: 50px;
+
+    background: url(../img/menu.jpg)repeat-x;
+}
+.menu li
+{
+    float: right;
+
+    margin: 26px 34px 0 0;
+}
+.menu a
+{
+    font-family: arial;
+    font-size: 1.12em;
+    font-weight: 600;
+
+    margin-left: 62px;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+.banner
+{
+    width: 960px;
+    height: 333px;
+    margin: 50px 0 0 36px;
+    margin: 0 auto;
+
+    background-color: #d1cdcd;
+}
+.news
+{
+    width: 350px;
+    height: 264px;
+
+    background-color: #fff;
+}
+.main-wrapper_First
+{
+    width: 822px;
+    height: 480px;
+    margin-top: 20px;
+}
+
+.main-wrapper_Second
+{
+    width: 822px;
+    height: 480px;
+    margin-top: 6px;
+}
+.box1
+{
+    float: left;
+
+    margin: 5px  0px 0px  35px;
+}
+.box2
+{
+    float: left;
+
+    margin: 5px 37px 0px 41px;
+}
+.box3
+{
+    float: left;
+
+    margin: 5px  0px 0px  35px;
+}
+.box4
+{
+    float: left;
+
+    margin: 5px 37px 0 41px;
+}
+.picture
+{
+    width: 350px;
+    height: 264px;
+
+    background-color: #d1cdcd;
+}
+/*========== Footer ==================*/
+
+.banner-footer
+{
+    width: 960px;
+    height: 100px;
+
+    background: url(../img/footer.jpg)repeat-x;
+}
+
+/*======== Estilo de títulos ======*/
+h2
+{
+    font-family: Verdana;
+    font-size: 1.37em;
+    font-weight: 600;
+
+    margin-top: 10px;
+}
+/*========== Estilo de texto======*/
+p
+{
+    font-family: arial;
+    font-size: 1.05em;
+
+    margin-top: 25px;
+}
